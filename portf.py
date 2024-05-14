@@ -71,10 +71,6 @@ if equipe == "Hiroto":
     st.sidebar.markdown("""
     <p style='color: white;'>Formando em Engenharia de Computação pela Unifei - Campus Itabira, conheceu o mundo dos dados a mais de 3 anos em uma Iniciação Científica com o tema de Radar Meteorológico, sendo necessário analisar dados para previsão de chuva em uma base de mais 5TB de dados.</p>
     """, unsafe_allow_html=True)
-elif equipe == "João Victor":
-    st.sidebar.markdown("""
-    <p style='color: white;'>Formando em Engenharia de Computação Pela Unifei- Campus Itabira, possui experiência como desenvolvedor full stack em uma empresa júnior da Universidade. Embora recente no mundo de dados, já virou um expert no desenvolvimento de dashboards, simplificandos dados em visualizações que contam histórias que vão além dos números da planilha.</p>
-    """, unsafe_allow_html=True)
 # Adicionando GIF e texto de marketing
 col1, col2 = st.columns(2)
 
@@ -126,7 +122,7 @@ with st.container():
 
         # Texto descritivo sobre as capacidades dos dashboards
         st.write("""
-            O estudo abaixo foi uma análise que realizamos para entender os dados da pandemia, com foco na relação dos óbitos distribuidos em um período. 
+            O estudo abaixo foi uma análise para entender os dados da pandemia, com foco na relação dos óbitos distribuidos em um período. 
             A análise inclui: entender as regras de negócios que constitui o problema, realizar as devidas limpezas, geração de hipóteses e sua validação com base nos resultados dos dados.
             """)
     # Incorporando o Jupyter notebook usando nbviewer
