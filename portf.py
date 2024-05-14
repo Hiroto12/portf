@@ -64,7 +64,7 @@ else:
 # Texto sobre informações da equipe
 st.sidebar.markdown("<p style='color: white;'>Informações da equipe:</p>", unsafe_allow_html=True)
 # Selectbox com os nomes da equipe
-equipe = st.sidebar.selectbox("Escolha um membro da equipe", ["Hiroto", "João Victor"])
+equipe = st.sidebar.selectbox("Escolha um membro da equipe", ["Hiroto"])
 
 # Mostrar a descrição correspondente ao membro da equipe selecionado
 if equipe == "Hiroto":
